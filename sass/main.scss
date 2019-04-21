@@ -1,0 +1,207 @@
+
+@font-face {
+    font-family: 'Showcard';
+     src: url('../fonts/ShowcardGothic-Reg.TTF');
+     src: local('ÃƒÂ¢Ã‹Å“Ã‚Âº'), url('../fonts/ShowcardGothic-Reg.woff') format('woff'), url('../fonts/ShowcardGothic-Reg.woff2') format('woff2');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ 
+ @font-face {
+     font-family: 'Gentona';
+      src: url('../fonts/Gentona-Book.OTF');
+      src: local('ÃƒÂ¢Ã‹Å“Ã‚Âº'), url('../fonts/Gentona-Book.woff') format('woff'), url('../fonts/Gentona-Book.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+  }
+  
+ 
+ 
+ a:link, .btn {
+     -webkit-transition: all 0.4s ease-in-out;
+     -moz-transition: all 0.4s ease-in-out;
+     -o-transition: all 0.4s ease-in-out;
+     transition: all 0.4s ease-in-out;
+     text-decoration: none;
+ }
+ 
+ 
+ body {
+     margin: 0px;
+     padding: 0px;
+     box-sizing:border-box
+ }
+ nav{
+     box-shadow: 0px 2px 3px #dadada;
+     margin: 12px 20px;
+     padding: 5px 15px;
+ }
+.title{font-family: 'Showcard';color:#6bb4cf}
+.screen-sizes-menu{
+    padding: 0px;
+    li{
+        list-style: none;
+        display: inline-block;margin-left:10px;text-align:center;
+        a{
+            color:#c7c7c7;
+            border-radius:50%;padding:5px;display: inline-block;border: 1px solid #c7c7c7;width: 35px;height: 35px;
+        }
+      
+
+        &:hover a{
+            color:#ac90db;border: 1px solid #ac90db;
+            
+        }
+    }
+    
+}
+
+li.active a{
+        color:#ac90db;
+        border-radius:50%;padding:5px;display: inline-block;border: 1px solid #ac90db;width: 35px;height: 35px;
+    
+ 
+}
+.banner-site {
+    background-color: #6bb4cf;
+    padding: 20px 0px;
+    min-height: 250px;
+      
+            .img-banner{
+                position: relative;
+
+
+                &:before{
+                    content: '';
+                    position: absolute;
+                    left:0px;
+                    top: 100px;
+                    background-image: url('../images/img-banner.png');
+                    height: 250px;
+                    width: 100%;    background-size: cover;
+
+                }
+              
+            
+
+
+        }
+        .desc-banner{text-align:center;margin-top: 60px;
+           h1{font-family:'Showcard';letter-spacing: 5px;color:#fff}
+           h4{font-family:'Showcard';letter-spacing: 5px;color:#333;font-size: 25px;margin-top: 8px;}
+        }
+
+}
+
+.m0{margin: 0px;}
+.p0{padding: 0px;}
+
+.services-site 
+{
+    margin-top: 30px;
+    .service{
+        span{
+            letter-spacing: 5px;
+            font-size: 20px;
+            font-family: 'Showcard';
+            clear: both;
+            i{
+                float: left;
+                font-size: 40px;
+                padding-right: 15px;
+            }
+
+           
+        }
+        
+        
+
+        p{margin-top: 20px;color: #343536;    word-spacing: 5px;    font-size: 15px;}
+
+
+       
+    }
+}
+
+.service1{
+    span{
+        color: #cf6b6b
+    }
+}
+.service2{
+    span{
+        color:#6bcf87
+    }
+}
+.service3{span{color:#f0d750}}
+.contact-us {
+    background-color: #eeedfe;
+    padding: 20px;
+    margin-top: 30px;
+    min-height: 450px;
+    .contact-img{
+        text-align: center;
+        img{display: inline-block;max-width: 100%;}
+    }
+    .contact-desc{
+        h3{font-family: 'Showcard';color: #84d3d9;margin-bottom: 15px;}
+        .form-group
+        {
+            border: 1px solid #72b7d1;
+            border-radius: 5px;margin-bottom:25px;
+           
+            .form-control{
+                color: #6bb4cf !important;
+              
+            }
+        }
+    }
+}
+
+.btn-primary{
+    background-color: #6bb4cf;
+    border-color: #6bb4cf;
+    font-family: 'Gentona'
+}
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+
+
+.footer{
+   
+    background-color: #6bb4cf;
+    color: #fff;
+    p{
+        padding:5px 2px;
+        font-family: 'Gentona';
+    }
+
+}
+.message{
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+
+@media only screen and (max-width:768px)
+{
+    .contact-us .contact-img img {
+        margin-top: 40px;
+    }
+    .banner-site .img-banner:before{top:150px;}
+    .banner-site .desc-banner h1{font-size: 30px}
+    .banner-site .desc-banner h4{font-size: 18px;}
+}
+
+input::placeholder {
+    color: #6bb4cf;
+  }
+
+  .theme iframe{width: 1366px;height: 768px;}

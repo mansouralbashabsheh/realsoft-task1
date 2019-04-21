@@ -1,0 +1,23 @@
+{
+  "name": "realsoft-task",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mansour",
+    "sass":"node-sass -w sass/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": ".."
+  },
+  "keywords": [
+    ".."
+  ],
+  "author": "..",
+  "license": "ISC"
+}
